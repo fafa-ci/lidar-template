@@ -1,6 +1,6 @@
 {
-  "name": "lidar-template",
-  "version": "0.0.0",
+  "name": "@fa-fa/lidar-template",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~12.0.1",
     "@angular/common": "~12.0.1",
@@ -35,5 +35,16 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "description": "Lidar template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fafa-ci/lidar-template.git"
+  },
+  "author": "Aymard Kouakou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fafa-ci/lidar-template/issues"
+  },
+  "homepage": "https://github.com/fafa-ci/lidar-template#readme"
 }
